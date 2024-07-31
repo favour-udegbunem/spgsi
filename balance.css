@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -52,6 +53,7 @@ aside a{
 .navbar{
     margin-top: 60%;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 
 .span-1{
@@ -95,6 +97,7 @@ aside a{
 
 .navbar .nav-content a{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     margin-top: 10%;
     margin-top: 4%;
     position: absolute;
@@ -115,7 +118,6 @@ aside a{
 }
 
 .nav-content-2{
-    background-color: rgba(243,243,243);
     width: 150%;
     height: 8.1vh;
     padding-left: 80px;
@@ -127,7 +129,6 @@ aside a{
 }
 
 .nav-content-2 .span-2{
-    background-color: rgb(38,81,146);
     align-items: center;
     width: 20%;
     height: 8.1vh;
@@ -140,38 +141,10 @@ aside a{
     margin-top: -1.2%;
 }
 
-.nav-content-2 a:hover{
-    transition: ease-in 2s;
-    transition: ease-out 2s;
-    background-size: cover;
-    padding-left: 50px;
-    background-color: rgba(243,243,243);
-}
-
-.nav-content-1 a:hover{
-    width: 150%;
-    /* padding-left: 50px; */
-    transition: ease-in 2s;
-    transition: ease-out 2s;
-    background-size: cover;
-}
-
-.nav-content-1 img:hover{
-    /* padding-left: 50px; */
-    transition: 2s;
-} 
-
 
 .navbar .nav-content-1 img{
     margin-left: -50px;
     margin-top: -7px;
-}
-.active:hover{
-    transition: ease-in 2s;
-    transition: ease-out 2s;
-    background-size: cover;
-    padding-left: 50px;
-    background-color: rgba(243,243,243);
 }
 
 .navbar img{
@@ -451,7 +424,7 @@ aside a{
 }
 
 .fund{
-    width: 25%;
+    width: 30%;
     margin-left: 20px;
     margin-top: 28%;
     height: 6vh;
@@ -460,6 +433,7 @@ aside a{
     color: #fff;
     background-color: #244C8A;
     border-radius: 5px;
+    padding-left: 10px;
 }
 
 .make{

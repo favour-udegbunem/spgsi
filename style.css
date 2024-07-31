@@ -101,14 +101,6 @@ aside a{
     position: absolute;
 }
 
-.navbar .nav-content:hover{
-    transition: ease-in 2s;
-    transition: ease-out 2s;
-    background-size: cover;
-    padding-left: -80px;
-    background-color: rgba(243,243,243);
-}
-
 .navbar .nav-content img{
     margin-top: -33px;
     margin-left: -20%;
@@ -116,7 +108,6 @@ aside a{
 }
 
 .nav-content-2{
-    background-color: rgba(243,243,243);
     width: 150%;
     height: 8.1vh;
     padding-left: 80px;
@@ -127,53 +118,10 @@ aside a{
     /* position: relative; */
 }
 
-.nav-content-2 .span-2{
-    background-color: rgb(38,81,146);
-    align-items: center;
-    width: 20%;
-    height: 8.1vh;
-    float: right; 
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    /* margin-top: -15%;  */
-    position: absolute;
-    margin-left: 130%;
-    margin-top: -1.2%;
-}
-
-.nav-content-2 a:hover{
-    transition: ease-in 2s;
-    transition: ease-out 2s;
-    background-size: cover;
-    padding-left: 50px;
-    background-color: rgba(243,243,243);
-}
-
-.nav-content-1 a:hover{
-    width: 150%;
-    /* padding-left: 50px; */
-    transition: ease-in 2s;
-    transition: ease-out 2s;
-    background-size: cover;
-}
-
-.nav-content-1 img:hover{
-    /* padding-left: 50px; */
-    transition: 2s;
-} 
-
 
 .navbar .nav-content-1 img{
     margin-left: -50px;
     margin-top: -7px;
-}
-
-.active:hover{
-    transition: ease-in 2s;
-    transition: ease-out 2s;
-    background-size: cover;
-    padding-left: 50px;
-    background-color: rgba(243,243,243);
 }
 
 .navbar img{
@@ -197,11 +145,11 @@ aside a{
     color: blue;
     font-family: 'Poppins', sans-serif;
     margin-left: 21%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .header__container p{
-    font-size: 15px;
+    font-size: 17px;
     color: black;
     font-family: 'Poppins', sans-serif;
     margin-left: 21%;
@@ -224,16 +172,16 @@ aside a{
     margin-left: 65%;
     background-color: green;
     width: 5%;
-    height: 5vh;
+    height: 4vh;
     border-radius: 30px;
     border: none;
 }
 
 .unknown{
-    margin-left: -2.3%;
+    margin-left: -1.8%;
     background-color: white;
-    width: 2%;
-    height: 4vh;
+    width: 1.4%;
+    height: 3vh;
     border-radius: 80px;
     border: none;
     margin-top: 3px;
@@ -247,8 +195,6 @@ aside a{
     margin-top: -2.4%;
 }
 
-
-
 .header__content img{
     margin-left: 74%;
     width: 35px;
@@ -256,64 +202,85 @@ aside a{
 }
 
 .bell{
-    animation-name: header__content;
-    transition: 2s;
+    animation-name: why;
+    transition: 1s;
 }
 
-@keyframes bell{
+@keyframes why{
     0%{left: -20px}
     10%{right: 20px;}
+    20%{left: -20px;}
+    40%{right: 20px;}
 }
 
 .header__content-2{
     width: 21.6%;
     margin-left: 77.7%;
-    height: 13vh;
+    height: 11vh;
     background-color: #fff;
-    margin-top: -130px;
+    margin-top: -63px;
     border-radius: 60px;
-    /* position: relative2 */
+    position: relative;
 }
 
 .known{
     width: 40px;
     margin-top: -5px;
     height: 7.9vh;
-    margin-top: -0px;
+    margin-top: 73px;
     margin-left: 80%;
     border-radius: 50%;
     font-size: 40px;
     position: relative;
 }
 
-.known span{
-    margin-left: -7px;
+.known img{
+    width: 60px;
     position: absolute;
-    background-color: rgb(133, 217, 251);
-    padding-left: 15px;
-    margin-top: -50px;
-    margin-left: -23px;
-    padding-top: 6px;
-    color: rgb(28, 129, 169);
+    display: flex;
+    margin-top: -144px;
+    margin-left: -228px;
+}
+
+.known-1{
+    position: relative;
+}
+
+.known-1 img{
+    position: absolute;
+    width: 30px;
+    margin-left: 7%;
+    margin-top: -190px;
 }
 
 .header__content-2 h1{
     font-size: 20px;
     color: black;
     font-weight: 700;
-    padding-top: 15px;
+    padding-top: 5px;
     margin-left: 69px;
+    position: absolute;
+    padding-top: 7px;
 }
 
 .header__content-con{
-    margin-top: -30px;
+    /* margin-top: -30px; */
+    position: relative;
+}
+
+.header__content-2 p{
+    position: absolute;
+    padding-bottom: 24px;
+    bottom: 0;
+    margin-top: 10%;
 }
 
 .header__content-con select{
-    margin-left: 85%;
+    margin-left: 94%;
     /* margin-top: -40px; */
     margin: 0px 20% 30px 85%;
     border: none;
+    margin-top: 11%;
 }
 
 .come{
@@ -328,11 +295,13 @@ aside a{
 
 }
 
+
 .main__container{
-    width: 45%;
+    width: 40%;
     height: 35vh;
     background-color: #fff;
-    margin-left: 21%;
+    margin-left: 19.5%;
+    position: relative;
     margin-top: 70px;
     border-radius: 20px;
 }
@@ -350,20 +319,23 @@ aside a{
 
 .main__content-1{
     margin-top: -10%;
+    position: relative;
 }
 
 .btn-box-2{
-    margin-left: 85%;
+    margin-left: 80%;
     margin-top: -12px;
-    width: 10%;
+    width: 15%;
     height: 4vh;
     background: #ededed;
     border: 1px solid;
+    position: absolute;
     
 }
 
 .btn-box-2 select{
     border: none;
+    background-color: #ededed;
 }
 
 .fund{
@@ -408,9 +380,9 @@ aside a{
 
 .atm-cards img{
     position: absolute;
-    width: 70%;
+    width: 80%;
     margin-left: 105%;
-    margin-top: -36%;
+    margin-top: -35%;
 }
 
 .atm-card-1{
@@ -419,21 +391,22 @@ aside a{
 
 .atm-card-1 img{
     position: absolute;
-    width: 70%;
-    margin-left: 105%;
-    margin-top: -28%;
+    width: 67%;
+    height: 30vh;
+    margin-left: 129%;
+    margin-top: -27%;
 }
 
 .next__section{
     position: fixed;
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 55vh;
     background-color: #fff;
     margin-top: 60px;
     border-radius: 20px;
     margin-top: 15%;
-    margin-left: -5px !important;
+    margin-left: -1px !important;
 }
 
 .next__section h1{
@@ -526,9 +499,11 @@ aside a{
 }
 
 .ruin img{
-    width: 85%;
-    margin-left: 93%;
-    margin-top: -30%;
+    width: 97%;
+    margin-left: 103%;
+    margin-top: -36.5%;
+    height: 54vh;
+    border-radius: 20px;
 }
 
 .cool{
@@ -543,6 +518,7 @@ aside a{
     font-size: 25px;
     margin-left: -10px;
     color: #009494;
+    padding-top: 20px;
 }
 
 .cool button{
@@ -570,7 +546,6 @@ aside a{
     border: none;
     color: black;
     margin-right: -10px;
-
 }
 
 .come{
@@ -590,236 +565,207 @@ aside a{
 
 .cool-1 .btn-box-5 select{
     border: none;
+    background-color: #ededed;
 }
 
 .charts{
-    width: 88%;
+    width: 100%;
     height: 65vh;
     background-color: #fff;
     margin-left: -1%;
-    margin-top: 70px;
+    margin-top: 8%;
     border-radius: 20px;
     position: relative;
 }
 
-hr{
-    background-color: green;
+.numbers{
+    position: relative;
 }
 
-.charts hr{
-    background-color: #009494;
-    color: #009494;
+.ul{
+    display: block;
 }
 
-.chart-1 p{
+#payin-1{
     position: absolute;
-    margin-top: 2.5%;
-    padding-left: 43px;
+    line-height: 5rem;
 }
 
-.chart-1 hr{
+#payin-hr-1{
+    width: 72%;
+    margin-top: 17%;
     position: absolute;
-    margin-top: 13.5%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: green;
+    margin-left: 18%;
 }
 
-.h-1{
-    background-color: green;
-}
-
-.but-1{
-    width: 23px;
-    background-color: #009494;
-    color: green;
-    margin-top: 46.7%;
-    display: flex;
-    border: none;
-    height: 21.9vh;
-    margin-left: 19%;
+#payin-2{
     position: absolute;
+    line-height: 10rem;
 }
 
-.chart-2 p{
+#payin-hr-2{
+    width: 72%;
+    margin-top: 24%;
     position: absolute;
-    margin-top: 11%;
-    padding-left: 43px;
+    margin-left: 18%;
 }
 
-.chart-2 hr{
+#payin-3{
     position: absolute;
-    margin-top: 22%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: green;
+    line-height: 15rem;
 }
 
-.but-2{
-    width: 23px;
-    background-color: #009494;
-    color: green;
-    margin-top: 12.8%;
-    display: flex;
-    border: none;
-    height: 48vh;
-    margin-left: 29%;
+#payin-hr-3{
+    width: 72%;
+    margin-top: 32%;
     position: absolute;
+    margin-left: 18%;
 }
 
-.chart-3 p{
+#payin-4{
     position: absolute;
-    margin-top: 19%;
-    padding-left: 43px;
+    line-height: 20rem;
 }
 
-.chart-3 hr{
+#payin-hr-4{
+    width: 72%;
+    margin-top: 39%;
     position: absolute;
-    margin-top: 30.7%;
-    width: 25.3rem;
-    margin-left: 19%;
-    background-color: #009494;
+    margin-left: 18%;
 }
 
-.but-3{
-    width: 23px;
-    background-color: #009494;
-    color: green;
-    margin-top: 36.2%;
-    display: flex;
-    border: none;
-    height: 30vh;
-    margin-left: 39%;
+#payin-5{
     position: absolute;
+    line-height: 25rem;
 }
 
-.chart-4 p{
+#payin-hr-5{
+    width: 72%;
+    margin-top: 37%;
     position: absolute;
-    margin-top: 27%;
-    padding-left: 43px;
+    margin-left: 18%;
 }
 
-.chart-4 hr{
+#payin-6{
     position: absolute;
-    margin-top: 38.8%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: blue;
+    line-height: 24rem;
 }
 
-.but-4{
-    width: 23px;
-    background-color: #009494;
-    color: green;
-    margin-top: 30.6%;
-    display: flex;
-    border: none;
-    height: 34.3vh;
-    margin-left: 51%;
-    position: absolute;
-}
-
-.chart-5 p{
-    position: absolute;
-    margin-top: 36%;
-    padding-left: 43px;
-}
-
-.chart-5 hr{
-    position: absolute;
-    margin-top: 48%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: blue;
-}
-
-.but-5{
-    width: 23px;
-    background-color: #009494;
-    color: green;
-    margin-top: 36.7%;
-    display: flex;
-    border: none;
-    height: 29.5vh;
-    margin-left: 63%;
-    position: absolute;
-}
-
-.chart-6 p{
-    position: absolute;
+#payin-hr-6{
+    width: 72%;
     margin-top: 45%;
-    padding-left: 43px;
+    position: absolute;
+    margin-left: 18%;
 }
 
-.chart-6 hr{
+#payin-7{
     position: absolute;
-    margin-top: 56%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: blue;
+    line-height: 30rem;
 }
 
-.but-6{
-    width: 23px;
-    background-color: #009494;
-    color: green;
-    margin-top: 28%;
-    display: flex;
-    border: none;
-    height: 36.3vh;
-    margin-left: 76%;
-    position: absolute;
-}
-
-.chart-7 p{
-    position: absolute;
+#payin-hr-7{
+    width: 72%;
     margin-top: 54%;
-    padding-left: 43px;
+    position: absolute;
+    margin-left: 18%;
 }
 
-.chart-7 hr{
+#payin-8{
+    position: absolute;
+    line-height: 35rem;
+    margin-left: 10px;
+}
+
+#payin-hr-8{
+    width: 72%;
+    margin-top: 61.5%;
+    position: absolute;
+    margin-left: 18%;
+}
+
+
+.stressed{
+    position: relative;
+    width: 300px;
+}
+
+#payin-s-1{
     position: absolute;
     margin-top: 66%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: blue;
-}
-.but-7{
-    width: 23px;
     background-color: #009494;
-    color: green;
-    margin-top: 23.1%;
-    display: flex;
-    border: none;
-    height: 40vh;
-    margin-left: 89%;
+    margin-left: 32.1%;
+    height: 15.3vh;
+}
+
+#payin-s-2{
+    position: absolute;
+    margin-top: 13%;
+    background-color: #009494;
+    margin-left: 50%;
+    height: 38.7vh;
+}
+
+#payin-s-3{
+    position: absolute;
+    margin-top: 52%;
+    background-color: #009494;
+    margin-left: 70%;
+    height: 21.4vh;
+}
+
+#payin-s-4{
+    position: absolute;
+    margin-top: 25%;
+    background-color: #009494;
+    margin-left: 88%;
+    height: 33.3vh;
+}
+
+#payin-s-5{
+    position: absolute;
+    margin-top: 48%;
+    background-color: #009494;
+    margin-left: 107%;
+    height: 23.4vh;
+}
+
+#payin-s-6{
+    position: absolute;
+    margin-top: 39.5%;
+    background-color: #009494;
+    margin-left: 125%;
+    height: 27.1vh;
+}
+
+#payin-s-7{
+    position: absolute;
+    margin-top: 52%;
+    background-color: #009494;
+    margin-left: 144%;
+    height: 21.4vh;
+}
+
+
+.cook{
+    margin-top: 2%;
+    margin-left: 15px;
+    font-size: 15px;
     position: absolute;
 }
 
-.chart-8 p{
-    position: absolute;
-    margin-top: 63%;
-}
-
-.chart-8 hr{
-    position: absolute;
-    margin-top: 74.8%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: blue;
-}
-
-
-/* Next, Pay out */
-
-.cool-3 h1{
+.cook-2 h1{
     position: absolute;
     font-size: 25px;
     margin-left: -10px;
-    color: #244C8A;
+    color: #265192;
+    padding-top: 20px;
 }
 
-.cool-3 .btn-box-7{
+.cook button{
+    margin-left: 20%;
+}
+
+.cook-2 .btn-box-4{
     margin-top: 2%;
     width: 15%;
     height: 5vh;
@@ -829,9 +775,8 @@ hr{
     text-align: center;
 }
 
-.cool-3 .btn-box-7 select{
+.cook-2 .btn-box-4 select{
     border: none;
-    margin-left: 20px;
 }
 
 .show{
@@ -849,7 +794,7 @@ hr{
     font-size: 20px;
 }
 
-.cool-4 .btn-box-8{
+.cook-1 .btn-box-5{
     margin-top: 2%;
     width: 15%;
     height: 5vh;
@@ -859,228 +804,183 @@ hr{
     text-align: center;
 }
 
-.cool-4 .btn-box-8 select{
+.cook-1 .btn-box-5 select{
     border: none;
 }
 
 .charls{
-    width: 88%;
+    width: 100%;
     height: 65vh;
     background-color: #fff;
-    margin-left: 90%;
-    margin-top: -75%;
+    margin-left: 102%;
+    margin-top: -16%;
     border-radius: 20px;
     position: relative;
 }
 
-hr{
-    background-color: green;
+.sumbers{
+    position: relative;
 }
 
-.charls hr{
+.ul{
+    display: block;
+}
+
+#payout-1{
     position: absolute;
-    background-color: #244C8A;
-    color: #244C8A;
+    line-height: 5rem;
 }
 
-.cool-3 p{
-    /* line-height: 20rem; */
-}
-
-.charls-1 p{
+#payout-hr-1{
+    width: 72%;
+    margin-top: 17%;
     position: absolute;
-    margin-top: 2.5%;
-    padding-left: 43px;
+    margin-left: 18%;
 }
 
-.charls-1 hr{
+#payout-2{
     position: absolute;
-    margin-top: 13.5%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: green;
+    line-height: 10rem;
 }
 
-.h-1{
-    background-color: green;
-}
-
-.gut-1{
-    width: 23px;
-    background-color: #244C8A;
-    color: green;
-    margin-top: 48%;
-    display: flex;
-    border: none;
-    height: 20.5vh;
-    margin-left: 19%;
+#payout-hr-2{
+    width: 72%;
+    margin-top: 24%;
     position: absolute;
+    margin-left: 18%;
 }
 
-.charls-2 p{
+#payout-3{
     position: absolute;
-    margin-top: 11%;
-    padding-left: 43px;
+    line-height: 15rem;
 }
 
-.charls-2 hr{
+#payout-hr-3{
+    width: 72%;
+    margin-top: 32%;
     position: absolute;
-    margin-top: 22%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: green;
+    margin-left: 18%;
 }
 
-.gut-2{
-    width: 23px;
-    background-color: #244C8A;
-    color: green;
-    margin-top: 13.1%;
-    display: flex;
-    border: none;
-    height: 47.6vh;
-    margin-left: 29%;
+#payout-4{
     position: absolute;
+    line-height: 20rem;
 }
 
-.charls-3 p{
+#payout-hr-4{
+    width: 72%;
+    margin-top: 39%;
     position: absolute;
-    margin-top: 19%;
-    padding-left: 43px;
+    margin-left: 18%;
 }
 
-.charls-3 hr{
+#payout-5{
     position: absolute;
-    margin-top: 30.7%;
-    width: 25.3rem;
-    margin-left: 19%;
-    background-color: #244C8A;
+    line-height: 25rem;
 }
 
-.gut-3{
-    width: 23px;
-    background-color: #244C8A;
-    color: green;
-    margin-top: 36%;
-    display: flex;
-    border: none;
-    height: 30vh;
-    margin-left: 39%;
+#payout-hr-5{
+    width: 72%;
+    margin-top: 37%;
     position: absolute;
+    margin-left: 18%;
 }
 
-.charls-4 p{
+#payout-6{
     position: absolute;
-    margin-top: 27%;
-    padding-left: 43px;
+    line-height: 24rem;
 }
 
-.charls-4 hr{
-    position: absolute;
-    margin-top: 38.8%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: blue;
-}
-
-.gut-4{
-    width: 23px;
-    background-color: #244C8A;
-    color: green;
-    margin-top: 30.0%;
-    display: flex;
-    border: none;
-    height: 34.7vh;
-    margin-left: 51%;
-    position: absolute;
-}
-
-.charls-5 p{
-    position: absolute;
-    margin-top: 36%;
-    padding-left: 43px;
-}
-
-.charls-5 hr{
-    position: absolute;
-    margin-top: 48%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: blue;
-}
-
-.gut-5{
-    width: 23px;
-    background-color: #244C8A;
-    color: green;
-    margin-top: 36.1%;
-    display: flex;
-    border: none;
-    height: 30vh;
-    margin-left: 63%;
-    position: absolute;
-}
-
-.charls-6 p{
-    position: absolute;
+#payout-hr-6{
+    width: 72%;
     margin-top: 45%;
-    padding-left: 43px;
+    position: absolute;
+    margin-left: 18%;
 }
 
-.charls-6 hr{
+#payout-7{
     position: absolute;
-    margin-top: 56%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: blue;
+    line-height: 30rem;
 }
 
-.gut-6{
-    width: 23px;
-    background-color: #244C8A;
-    color: green;
-    margin-top: 27.1%;
-    display: flex;
-    border: none;
-    height: 37vh;
-    margin-left: 76%;
-    position: absolute;
-}
-
-.charls-7 p{
-    position: absolute;
+#payout-hr-7{
+    width: 72%;
     margin-top: 54%;
-    padding-left: 43px;
+    position: absolute;
+    margin-left: 18%;
 }
 
-.charls-7 hr{
+#payout-8{
+    position: absolute;
+    line-height: 35rem;
+    margin-left: 10px;
+}
+
+#payout-hr-8{
+    width: 72%;
+    margin-top: 61.5%;
+    position: absolute;
+    margin-left: 18%;
+}
+
+
+.blessed{
+    position: relative;
+    width: 300px;
+}
+
+#payout-s-1{
     position: absolute;
     margin-top: 66%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: blue;
-}
-.gut-7{
-    width: 23px;
-    background-color: #244C8A;
-    color: green;
-    margin-top: 23.2%;
-    display: flex;
-    border: none;
-    height: 40vh;
-    margin-left: 89%;
-    position: absolute;
+    background-color: #265192;
+    margin-left: 32.1%;
+    height: 15.3vh;
 }
 
-.charls-8 p{
+#payout-s-2{
     position: absolute;
-    margin-top: 63%;
+    margin-top: 13%;
+    background-color: #265192;
+    margin-left: 50%;
+    height: 38.7vh;
 }
 
-.charls-8 hr{
+#payout-s-3{
     position: absolute;
-    margin-top: 74.8%;
-    width: 25.3rem;
-    margin-left: 19%;
-    color: blue;
+    margin-top: 52%;
+    background-color: #265192;
+    margin-left: 70%;
+    height: 21.4vh;
+}
+
+#payout-s-4{
+    position: absolute;
+    margin-top: 25%;
+    background-color: #265192;
+    margin-left: 88%;
+    height: 33.3vh;
+}
+
+#payout-s-5{
+    position: absolute;
+    margin-top: 48%;
+    background-color: #265192;
+    margin-left: 107%;
+    height: 23.4vh;
+}
+
+#payout-s-6{
+    position: absolute;
+    margin-top: 39.5%;
+    background-color: #265192;
+    margin-left: 125%;
+    height: 27.1vh;
+}
+
+#payout-s-7{
+    position: absolute;
+    margin-top: 52%;
+    background-color: #265192;
+    margin-left: 144%;
+    height: 21.4vh;
 }
